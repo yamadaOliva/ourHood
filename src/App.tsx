@@ -1,5 +1,17 @@
 import Header from "./components/header/Header";
 import SliderShow from "./components/slider/SliderShow";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from "./components/footer/footer";
+//social media
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+  faYoutube,
+  faPinterest,
+} from "@fortawesome/free-brands-svg-icons";
+//newspaper icon
+import { faNewspaper } from "@fortawesome/free-solid-svg-icons";
 import "./App.scss";
 function App() {
   return (
@@ -12,6 +24,7 @@ function App() {
             <h1>CHÍNH TRỊ</h1>
           </section>
           <hr />
+
           <section className="part__2">
             <SliderShow />
           </section>
@@ -20,31 +33,82 @@ function App() {
               Công bố phê duyệt đồ án Quy hoạch chung Đô thị mới Cam Lâm đến năm
               2045
             </h2>
-            <p>
-              Ngày 2/3, Ủy ban nhân dân tỉnh Khánh Hòa tổ chức lễ công bố Quyết
-              định của Thủ tướng Chính phủ phê duyệt Quy hoạch chung đô thị mới
-              Cam Lâm đến năm 2045.
-            </p>
-            <p>
-              Tham dự có{" "}
-              <a href="https://nhandan.vn/chu-tich-quoc-hoi-vuong-dinh-hue-tham-cac-dong-chi-nguyen-lanh-dao-cap-cao-cua-lao-post785817.html">
-                đồng chí Vương Đình Huệ
-              </a>
-              , Ủy viên Bộ Chính trị, Chủ tịch Quốc hội; các đồng chí Ủy viên
-              Trung ương Đảng: Nguyễn Khắc Định, Phó Chủ tịch Quốc hội; Trần
-              Hồng Hà, Phó Thủ tướng Chính phủ; Bùi Văn Cường, Tổng Thư ký Quốc
-              hội, Chủ nhiệm Văn phòng Quốc hội; Nguyễn Thị Thanh, Trưởng Ban
-              Công tác đại biểu thuộc Ủy ban Thường vụ Quốc hội; Vũ Hồng Thanh,
-              Chủ nhiệm Ủy ban Kinh tế của Quốc hội; Lê Tấn Tới, Chủ nhiệm Ủy
-              ban Quốc phòng và An ninh của Quốc hội; Lê Quang Huy, Chủ nhiệm Ủy
-              ban Khoa học, Công nghệ và Môi trường của Quốc hội; Nguyễn Hải
-              Ninh, Bí thư Tỉnh ủy Khánh Hòa. Tham dự còn có đại diện Văn phòng
-              Quốc hội, lãnh đạo các ban, bộ, ngành Trung ương; các sở, ban,
-              ngành địa phương tỉnh Khánh Hòa.
-            </p>
           </section>
+
+          <section className="part__4">
+            <div className="part__4__body">
+              <hr />
+              <div className="date">02/03/2024 14:32</div>
+
+              <div className="icon__list">
+                <div className="icon__item">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </div>
+                <div className="icon__item">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </div>
+                <div className="icon__item">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </div>
+                <div className="icon__item">
+                  <FontAwesomeIcon icon={faYoutube} />
+                </div>
+                <div className="icon__item">
+                  <FontAwesomeIcon icon={faPinterest} />
+                </div>
+                <div className="follow__button rounded">
+                  <span>
+                    Theo dõi AJC News <span>Google News</span>
+                  </span>
+                </div>
+              </div>
+
+              <div className="tag__list">
+                <div className="tag__item">#Khánh Hòa</div>
+                <div className="tag__item">
+                  #Chủ tịch Quốc hội Vương Đình Huệ
+                </div>
+                <div className="tag__item">
+                  #Ban Thường vụ Tỉnh uỷ Khánh Hòa
+                </div>
+              </div>
+
+              <div className="comment__input">
+                <textarea placeholder="Bình luận"></textarea>
+                <button className="btn btn-secondary rounded">
+                  Gửi bình luận
+                </button>
+              </div>
+            </div>
+          </section>
+          <div className="part__5">
+            <h2 className="text-white">
+              <span>
+                <FontAwesomeIcon icon={faNewspaper} />
+              </span>
+              Tin liên quan
+            </h2>
+            <div className="post__list">
+                <div className="post__item">
+                    <img src="./imgSlide/anh1.jpg" alt="" />
+                    <h3>Chủ tịch Quốc hội Vương Đình Huệ thăm, làm việc tại tỉnh Khánh Hòa</h3>
+                    <div className="date__time">01/03/2024 18:48</div>
+                </div>
+                <div className="post__item">
+                    <img src="./imgSlide/anh2.jpg" alt="" />
+                    <h3>Nhiều tín hiệu khởi sắc cho ngành du lịch Khánh Hòa ngay từ đầu năm</h3>
+                    <div className="date__time">21/02/2024 09:59</div>
+                </div>
+                <div className="post__item">
+                    <img src="./imgSlide/anh3.jpg" alt="" />
+                    <h3>Các hoạt động của Chủ tịch Quốc hội Vương Đình Huệ tại Khánh Hòa</h3>
+                    <div className="date__time">01/03/2024 20:21</div>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -63,16 +63,17 @@ export default function SliderShow() {
               nghĩa đặc biệt quan trọng, tạo thêm động lực mới, sức lan tỏa
               trong thu hút đầu tư, phát triển Cam Lâm trở thành cực tăng trưởng
               phía Nam tỉnh Khánh Hòa và vùng Nam Trung Bộ; góp phần sớm đưa
-              Khánh Hòa lên thành phố trực thuộc Trung ương. Trên tinh thần đó,
-              Phó Thủ tướng đề nghị Khánh Hòa cần nỗ lực để tận dụng, phát huy
-              đạt hiệu quả cao nhất những cơ chế đột phá, chính sách đặc thù đã
-              được Quốc hội quyết định tại Nghị quyết số 55/2022/QH15 ngày
-              11/6/2022, đặc biệt là phân cấp, thẩm quyền về quản lý quy hoạch,
-              đất đai, trong giải phóng mặt bằng, tái định cư, triển khai các dự
-              án đầu tư hiệu quả nhất. Phó Thủ tướng tin tưởng, Cam Lâm sẽ làm
-              lên những kỳ tích mới, giá trị mới, nổi trội, mang sức sống, sáng
-              tạo, khát vọng vươn lên, khát khao phát triển, phồn vinh và thịnh
-              vượng.
+              Khánh Hòa lên thành phố trực thuộc Trung ương.
+            </figcaption>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="main__slider">
+            <img src={BaseUrl + "4.jpg"} alt="img0" />
+            <figcaption>
+              Phó Thủ tướng tin tưởng, Cam Lâm sẽ làm lên những kỳ tích mới, giá
+              trị mới, nổi trội, mang sức sống, sáng tạo, khát vọng vươn lên,
+              khát khao phát triển, phồn vinh và thịnh vượng.
             </figcaption>
           </div>
         </SwiperSlide>

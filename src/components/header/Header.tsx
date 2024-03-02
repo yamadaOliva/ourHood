@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon từ module @fortawesome/react-fontawesome
-import { faUser, faSearch } from '@fortawesome/free-solid-svg-icons'; // Import biểu tượng từ Font Awesome
+import { faUser, faSearch  } from '@fortawesome/free-solid-svg-icons'; // Import biểu tượng từ Font Awesome
 
 import './Header.scss';
 
@@ -9,7 +9,7 @@ export default function Header() {
       <header className="navbar navbar-expand-lg ">
         <div className="container header__container">
           <div className="header__brand navbar-brand">
-            ThaiNinh{' '}
+            AJC News{' '}
           </div>
           <div className="header__nav">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
