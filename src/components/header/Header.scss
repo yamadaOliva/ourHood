@@ -1,0 +1,44 @@
+header {
+  background-color: #980700;
+  display: flex;
+  align-items: center;
+  position: sticky!important;
+  height: auto;
+  .header__container {
+    height: 20px;
+    font-family: "URW Geometric", Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    .header__brand {
+      font-size: 1.4rem;
+      color: #e9ecef;
+      margin-left: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      .white_heart {
+        color: white;
+      }
+    }
+    .header__nav{
+        margin-left: auto;
+        ul{
+           
+            li{
+                font-size: 1rem;
+                color: #e9ecef!important;
+                display: inline;
+                margin-left: 1rem;
+                a{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 500!important;
+                    color: #e9ecef!important;
+                    text-decoration: none;
+                    &:hover{
+                        color: #e9ecef!important;
+                    }
+                }
+            }
+        }
+    }
+  }
+}
