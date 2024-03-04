@@ -33,6 +33,12 @@ function App() {
               Công bố phê duyệt đồ án Quy hoạch chung Đô thị mới Cam Lâm đến năm
               2045
             </h2>
+            <p>
+              Sáng 2/3, tại thành phố Nha Trang (tỉnh Khánh Hòa), Chủ tịch Quốc
+              hội Vương Đình Huệ và các đại biểu dự Lễ công bố Quyết định của
+              Thủ tướng Chính phủ phê duyệt Đồ án Quy hoạch chung Đô thị mới Cam
+              Lâm đến năm 2045.
+            </p>
           </section>
 
           <section className="part__4">
@@ -89,21 +95,30 @@ function App() {
               Tin liên quan
             </h2>
             <div className="post__list">
-                <div className="post__item">
-                    <img src="./imgSlide/anh1.jpg" alt="" />
-                    <h3>Chủ tịch Quốc hội Vương Đình Huệ thăm, làm việc tại tỉnh Khánh Hòa</h3>
-                    <div className="date__time">01/03/2024 18:48</div>
-                </div>
-                <div className="post__item">
-                    <img src="./imgSlide/anh2.jpg" alt="" />
-                    <h3>Nhiều tín hiệu khởi sắc cho ngành du lịch Khánh Hòa ngay từ đầu năm</h3>
-                    <div className="date__time">21/02/2024 09:59</div>
-                </div>
-                <div className="post__item">
-                    <img src="./imgSlide/anh3.jpg" alt="" />
-                    <h3>Các hoạt động của Chủ tịch Quốc hội Vương Đình Huệ tại Khánh Hòa</h3>
-                    <div className="date__time">01/03/2024 20:21</div>
-                </div>
+              <div className="post__item">
+                <img src="./imgSlide/anh1.jpg" alt="" />
+                <h3>
+                  Chủ tịch Quốc hội Vương Đình Huệ thăm, làm việc tại tỉnh Khánh
+                  Hòa
+                </h3>
+                <div className="date__time">01/03/2024 18:48</div>
+              </div>
+              <div className="post__item">
+                <img src="./imgSlide/anh2.jpg" alt="" />
+                <h3>
+                  Nhiều tín hiệu khởi sắc cho ngành du lịch Khánh Hòa ngay từ
+                  đầu năm
+                </h3>
+                <div className="date__time">21/02/2024 09:59</div>
+              </div>
+              <div className="post__item">
+                <img src="./imgSlide/anh3.jpg" alt="" />
+                <h3>
+                  Các hoạt động của Chủ tịch Quốc hội Vương Đình Huệ tại Khánh
+                  Hòa
+                </h3>
+                <div className="date__time">01/03/2024 20:21</div>
+              </div>
             </div>
           </div>
         </div>
